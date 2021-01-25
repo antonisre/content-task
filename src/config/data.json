@@ -1,0 +1,41 @@
+{
+    "text": {
+        "title": "Lorem Ipsum passages",
+        "paragraphs": [
+            {"content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look even slightly believable"
+            }
+        ] 
+    },
+    "sizes": [
+        {"size": 14},
+        {"size": 28}
+    ],
+    "list": [
+        { "text": "The point of using Lorem Ipsum is that it has a more-or-less normal distribution"},
+        { "text": "but also the leap into electronic typesetting, remaining essentially unchanged"},
+        { "text": "Contrary to popular belief, Lorem Ipsum is not simply random text"},
+        { "text": "here are many variations of passages of Lorem Ipsum available"},
+        { "text": "The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc."}
+    ],
+    "pictures": [
+        { "thumbSrc": { "14": "https://via.placeholder.com/400/0000FF", "28": "https://via.placeholder.com/400/0000FF"},
+            "src": { "14": "https://via.placeholder.com/400/0000FF", "28": "https://via.placeholder.com/400/0000FF"}
+        },
+        { "thumbSrc": { "14": "https://via.placeholder.com/400/00FFFF", "28": "https://via.placeholder.com/400/00FFFF"},
+            "src": { "14": "https://via.placeholder.com/400/00FFFF", "28": "https://via.placeholder.com/400/00FFFF"}
+        },
+        { "thumbSrc": { "14": "https://via.placeholder.com/400/0000FF", "28": "https://via.placeholder.com/400/0000FF"},
+        "src": { "14": "https://via.placeholder.com/400/0000FF", "28": "https://via.placeholder.com/400/0000FF"}
+        },
+        { "thumbSrc": { "14": "https://via.placeholder.com/400/00FFFF", "28": "https://via.placeholder.com/400/00FFFF"},
+            "src": { "14": "https://via.placeholder.com/400/00FFFF", "28": "https://via.placeholder.com/400/00FFFF"}
+        },
+        { "thumbSrc": { "14": "https://via.placeholder.com/400/0000FF", "28": "https://via.placeholder.com/400/0000FF"},
+        "src": { "14": "https://via.placeholder.com/400/0000FF", "28": "https://via.placeholder.com/400/0000FF"}
+        },
+        { "thumbSrc": { "14": "https://via.placeholder.com/400/00FFFF", "28": "https://via.placeholder.com/400/00FFFF"},
+            "src": { "14": "https://via.placeholder.com/400/00FFFF", "28": "https://via.placeholder.com/400/00FFFF"}
+        }
+    ],
+    "alertText": "Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum"
+}

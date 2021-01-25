@@ -1,0 +1,129 @@
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.contentWrapper {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pictures {
+    width: 45%;
+}
+
+.text {
+    width: 45%;
+}
+
+.select {
+    display: flex;
+    width: 200px;
+    height: 30px;
+    justify-content: space-around;
+}
+
+.select > label {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.select > select {
+    width: 100px;
+    height: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    border: 1px solid #dfdfdf;
+    border-radius: 2px;
+    margin-right: 2rem;
+    padding-left: 15%;
+}
+
+.select > select > option {
+    text-align: center;
+}
+
+.buyButton {
+    width: 300px;
+    color: white;
+    background-color: darkgray;
+    margin: 20px 0px;
+    height: 30px;
+    border: none;
+}
+
+.buyButton:hover {
+    cursor: pointer;
+}
+
+.list {
+    padding-left: 10px;
+    list-style-type: circle;
+    margin: 0;
+}
+
+.list > li {
+    margin-bottom: 20px;
+}
+  
+.list > li:last-child {
+   margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 860px) {
+    .text > h1 {
+        font-size: 21px;
+    }
+
+    .text > p {
+        font-size: 16px;
+    }
+
+    .list {
+        font-size: 16px;
+    }
+
+    .buyButton {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .contentWrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pictures {
+        width: 100%;
+    }
+    
+    .text {
+        width: 100%;
+    }
+
+    .buyButton {
+        width: 100%;
+    }
+
+    .select {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .select > label {
+        margin-right: 15px;
+    }
+
+    .select > select {
+        padding-left: 5%;
+    }
+
+}
